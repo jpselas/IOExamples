@@ -104,17 +104,12 @@ public class IOLab {
             System.out.println(s);
             
         }
-        int lineSpace = 3;// put the record number
-        int newLineSpace;
-        int wordSpace;
-        if(lineSpace == 0){
-            newLineSpace = lineSpace;
-            wordSpace= lineSpace +2;
-            wordSpace= newLineSpace +2;
-        }else{
-            newLineSpace = (lineSpace *4);
-            wordSpace= newLineSpace +2;
-        }
+        int lineSpace = 2;// put the record number - 1
+        int newLineSpace=0;
+        int wordSpace=0;
+       newLineSpace = (lineSpace *4);
+       wordSpace= newLineSpace +2;
+        
         
         
        
