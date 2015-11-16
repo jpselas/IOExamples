@@ -104,7 +104,7 @@ public class IOLab {
             System.out.println(s);
             
         }
-        int lineSpace = 2;
+        int lineSpace = 3;// put the record number
         int newLineSpace;
         int wordSpace;
         if(lineSpace == 0){
@@ -112,7 +112,7 @@ public class IOLab {
             wordSpace= lineSpace +2;
             wordSpace= newLineSpace +2;
         }else{
-            newLineSpace = lineSpace +3;
+            newLineSpace = (lineSpace *4);
             wordSpace= newLineSpace +2;
         }
         
